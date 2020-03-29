@@ -1,3 +1,4 @@
+Solution:
   resp = nsfg.ReadFemResp()
   pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
   thinkplot.Pmf(pmf)
